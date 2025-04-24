@@ -46,7 +46,7 @@ To run this Ruby on Rails application locally, follow these steps:
 
 I debated using Rails vs Node when deciding how to start this application. While I’ve never fully built with Rails before, I’ve been learning Ruby through courses and experimenting with Rails on the side. On the other hand, Node often requires a lot of setup and configuration, which I felt would cut into my actual building time. I decided to give Rails a shot—and it turned out to be an amazing learning experience.
 
-That said, there were some trade offs. Since I was learning as I went, I spent more time understanding the Rails framework and less time styling the application or writing unit tests like I had planned. Still, I’m proud of what I was able to build and learn in just about two hours.
+That said, there were some trade offs. Since I was learning as I went, I spent more time understanding the Rails framework and less time styling the application or writing unit tests like I had planned. I also did not have time to create a React frontend like I planned. Still, I’m proud of what I was able to build and learn in just about two hours.
 
 ## Future Implementations
 
