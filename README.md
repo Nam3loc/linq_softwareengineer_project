@@ -10,17 +10,19 @@ I built a simple contact list manager app where you can create, view, update, an
 
 ## Technologies Used
 
--Ruby
--Ruby on Rails
+- Ruby  
+- Ruby on Rails
+
 
 ## Instructions
 
 To run this Ruby on Rails application locally, follow these steps:
 
-- Ensure you have Ruby and Rails installed - If you need instructions, here is a walkthrough: [https://guides.rubyonrails.org/install_ruby_on_rails.html].
+- Ensure you have Ruby and Rails installed - If you need instructions, here is a walkthrough: Ensure you have Ruby and Rails installed — if you need instructions, [check out this walkthrough](https://guides.rubyonrails.org/install_ruby_on_rails.html).
+
 - Clone the repository to your local machine:
   ```bash
-  git clone https://github.com/your-username/contact_list_manager.git
+  git clone https://github.com/Nam3loc/linq_softwareengineer_project.git
   ```
 - Navigate into the project directory:  
   ```bash
@@ -42,7 +44,9 @@ To run this Ruby on Rails application locally, follow these steps:
 
 ## Trade Offs
 
-I debated using Rails vs Node when thinking of how to start this application. I have never used Rails so there would be a learning curb but Node takes so much setup and configuration that it would bleed into my actual building time. Have dabbled in Rails and been learning Ruby, I decided to give a Rails app a try. This was an amazing learning experience but presented some trade offs. I spent more time learning so I was not able to style the application or complete unit testing like I wanted to. That being said, I am proud of what I was able to learn and build in around 2 hours.
+I debated using Rails vs Node when deciding how to start this application. While I’ve never fully built with Rails before, I’ve been learning Ruby through courses and experimenting with Rails on the side. On the other hand, Node often requires a lot of setup and configuration, which I felt would cut into my actual building time. I decided to give Rails a shot—and it turned out to be an amazing learning experience.
+
+That said, there were some trade offs. Since I was learning as I went, I spent more time understanding the Rails framework and less time styling the application or writing unit tests like I had planned. Still, I’m proud of what I was able to build and learn in just about two hours.
 
 ## Future Implementations
 
@@ -50,5 +54,4 @@ With more time, I would add styling to the project to improve the user experienc
 
 ## Walkthrough
 
-You can view a walkthrough of the Contact List Manager here:  
-[(https://www.loom.com/share/b6575011d1344ddabe62e1469037906e)]
+You can view a walkthrough of the Contact List Manager [here](https://www.loom.com/share/b6575011d1344ddabe62e1469037906e).
