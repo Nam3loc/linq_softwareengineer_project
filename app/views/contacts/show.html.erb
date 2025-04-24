@@ -1,0 +1,13 @@
+<h1><%= @contact.name %></h1>
+
+<div>
+  <%= button_to "Back", contacts_path, method: :get %>
+</div>
+
+<p><strong>Name:</strong> <%= @contact.name %></p>
+<p><strong>Email:</strong> <%= @contact.email %></p>
+
+<div>
+  <%= button_to "Edit", edit_contact_path(@contact), method: :get %>
+  <%= button_to "Delete", @contact, method: :delete, data: { turbo_confirm: "Are you sure?" } %>
+</div>

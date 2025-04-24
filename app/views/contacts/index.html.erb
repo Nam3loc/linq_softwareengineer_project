@@ -1,0 +1,31 @@
+<h1>Contacts</h1>
+
+<div>
+  <% @contacts.each do |contact| %>
+    <div>
+      <%= link_to contact.name, contact, class: "contact-link" %>
+    </div>
+  <% end %>
+</div>
+
+<div>
+  <%= button_to "Add New Contact", new_contact_path, method: :get %>
+</div>
+
+<%= form_tag "/contacts", method: "GET" do %>
+  <div>
+    <div>
+      <%= label_tag :search_by_name, "Search by Name" %>
+      <%= text_field_tag :search_by_name, params[:search_by_name] %>
+    </div>
+
+    <div>
+      <%= label_tag :search_by_email, "Search by Email" %>
+      <%= text_field_tag :search_by_email, params[:search_by_email], class: "form-input" %>
+    </div>
+  </div>
+
+  <div>
+    <%= submit_tag "Search", class: "btn-search" %>
+  </div>
+<% end %>

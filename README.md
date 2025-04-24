@@ -1,0 +1,54 @@
+# Contact List Manager
+
+## Time Spent
+
+2 hours
+
+## Description
+
+I built a simple contact list manager app where you can create, view, update, and delete contacts. I added a search functionality with some simple edge case logic to ensure a smooth experience.
+
+## Technologies Used
+
+-Ruby
+-Ruby on Rails
+
+## Instructions
+
+To run this Ruby on Rails application locally, follow these steps:
+
+- Ensure you have Ruby and Rails installed - If you need instructions, here is a walkthrough: [https://guides.rubyonrails.org/install_ruby_on_rails.html].
+- Clone the repository to your local machine:
+  ```bash
+  git clone https://github.com/your-username/contact_list_manager.git
+  ```
+- Navigate into the project directory:  
+  ```bash
+  cd contact-list-manager
+  ```
+- Install the necessary gems:  
+  ```bash
+  bundle install
+  ```
+- Set up the database:  
+  ```bash
+  rails db:create db:migrate db:seed
+  ```
+- Start the Rails server:  
+  ```bash
+  bin/rails server
+  ```
+- Visit `http://localhost:3000` in your browser to use the application.
+
+## Trade Offs
+
+I debated using Rails vs Node when thinking of how to start this application. I have never used Rails so there would be a learning curb but Node takes so much setup and configuration that it would bleed into my actual building time. Have dabbled in Rails and been learning Ruby, I decided to give a Rails app a try. This was an amazing learning experience but presented some trade offs. I spent more time learning so I was not able to style the application or complete unit testing like I wanted to. That being said, I am proud of what I was able to learn and build in around 2 hours.
+
+## Future Implementations
+
+With more time, I would add styling to the project to improve the user experience. I would also create unit testing to ensure functionality works as the app expands. I would also add more data that you could add to the contact, such as phone number, address, date of birth, notes, and the ability to favorite a contact. 
+
+## Walkthrough
+
+You can view a walkthrough of the Contact List Manager here:  
+[(https://www.loom.com/share/b6575011d1344ddabe62e1469037906e)]
