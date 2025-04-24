@@ -55,3 +55,5 @@ With more time, I would add styling to the project to improve the user experienc
 ## Walkthrough
 
 You can view a walkthrough of the Contact List Manager [here](https://www.loom.com/share/b6575011d1344ddabe62e1469037906e).
+
+[https://www.loom.com/share/b6575011d1344ddabe62e1469037906e]
