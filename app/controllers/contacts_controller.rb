@@ -5,11 +5,11 @@ class ContactsController < ApplicationController
     @contacts = Contact.all
     
     if params[:search_by_name] && params[:search_by_name] != ""
-      @contacts = @contacts.where("name like ?", 
+      @contacts = @contacts.where("name like ?",
       "%#{params[:search_by_name]}%")
     end
    if params[:search_by_email] && params[:search_by_email] != ""
-      @contacts = @contacts.where("email like ?", 
+      @contacts = @contacts.where("email like ?",
       "%#{params[:search_by_email]}%")
     end
   end
